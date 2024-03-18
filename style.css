@@ -1,0 +1,54 @@
+@keyframes move {
+    from {background-position-x: 0;}
+    to {background-position-x: -100vw;}
+}
+
+body {
+    background-image: url(gd-background.jpg);
+    background-size: auto max(100%, 100vh);
+    animation: move 60s infinite linear;
+    padding: 20px 0;
+}
+
+* {
+    font-family: 'Rubik', sans-serif !important;
+}
+
+.center {
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.counter {
+    color: #777;
+}
+
+.registration {
+    width: 30vw;
+}
+
+img {
+    width: 20%;
+    transition: 150ms;
+}
+
+tr:hover img {
+    width: 21.5%;
+}
+
+th, td {
+    text-align: center !important;
+}
+
+th {
+    font-size: x-large;
+}
+
+a {
+    text-decoration: none !important;
+}

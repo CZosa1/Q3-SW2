@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Seatwork 2</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="../../favicon.ico" type="image/x-icon">
+
+        <!-- BS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- GFonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="registration text-bg-light p-3 mb-5 mx-auto rounded-3">
+            <form>
+                <h2 class="text-dark center mb-3">User Registration</h2>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <div class="form-floating">
+                            <input class="form-control bg-info" type="text" id="username" placeholder="Enter your username">
+                            <label for="username">Username</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-floating">
+                            <input class="form-control bg-info l-md-10" type="email" id="inputEmail" placeholder="Email">
+                            <label for="inputEmail">Email</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <div class="form-floating">
+                            <input class="form-control bg-info" type="password" id="inputPassword" placeholder="Password">
+                            <label for="inputPassword">Password</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-floating">
+                            <input class="form-control bg-info" type="password" id="inputPassword" placeholder="Confirm Password">
+                            <label for="inputPassword">Confirm Password</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-check form-switch mb-3">
+                    <input class="form-check-input" type="checkbox" id="terms">
+                    <label class="form-check-label" for="terms">I agree to the terms and conditions</label>
+                </div>
+                <button class="btn btn-primary rounded-5 mx-auto d-flex" type="submit">Register</button>
+            </form>
+        </div>
+
+        <h1 class="center">Geometry Dash - Gamemodes</h1>
+        <table class="container table table-bordered table-hover rounded-4 overflow-hidden">
+            <tr>
+                <th class="table-primary">Gamemode</th>
+                <th class="table-primary">Info</th>
+            </tr>
+            <tr>
+                <td>
+                    <img class="img-thumbnail rounded-4" src="cube.png" alt="Cube Icon">
+                </td>
+                <td class="table-info center">
+                    <div class="counter">#1</div>
+                    <h2 class="bold">Cube</h2>
+                    <div>
+                        <span class="badge bg-primary">Type: Jump</span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img class="img-thumbnail rounded-4" src="ship.png" alt="Ship Icon">
+                </td>
+                <td class="table-info center">
+                    <div class="counter">#2</div>
+                    <h2 class="bold">Ship</h2>
+                    <div>
+                        <span class="badge bg-primary">Type: Flight</span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img class="img-thumbnail rounded-4" src="ball.png" alt="Ball Icon">
+                </td>
+                <td class="table-info center">
+                    <div class="counter">#3</div>
+                    <h2 class="bold">Ball</h2>
+                    <div>
+                        <span class="badge bg-primary">Type: Gravity Inversion</span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img class="img-thumbnail rounded-4" src="robot.png" alt="Robot Icon">
+                </td>
+                <td class="table-info center">
+                    <div class="counter">#4</div>
+                    <h2 class="bold">Robot</h2>
+                    <div>
+                        <span class="badge bg-primary">Type: Long Jump</span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img class="img-thumbnail rounded-4" src="wave.png" alt="Wave Icon">
+                </td>
+                <td class="table-info center">
+                    <div class="counter">#5</div>
+                    <h2 class="bold">Wave</h2>
+                    <div>
+                        <span class="badge bg-primary">Type: Diagonals</span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img class="img-thumbnail rounded-4" src="spider.png" alt="Spider Icon">
+                </td>
+                <td class="table-info center">
+                    <div class="counter">#6</div>
+                    <h2 class="bold">Spider</h2>
+                    <div>
+                        <span class="badge bg-primary">Type: Teleportation</span>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <h2 class="center">Source: <a class="badge bg-warning" href="https://geometry-dash.fandom.com/wiki/Geometry_Dash_Wiki" target="_blank">GD Wiki</a></h2>
+    </body>
+</html>
